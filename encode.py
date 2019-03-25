@@ -7,6 +7,6 @@ def CodeWord(x):
     return x
 
 
-infoWord = list(map(int , input("Enter Codeword: ")))
+infoWord = list(map(int , input("Enter Information Word: ")))
 c = CodeWord(infoWord)
 print(c)
